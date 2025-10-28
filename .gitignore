@@ -1,2 +1,25 @@
 # Python virtual environments
 venv
+
+venv38/
+.env/
+*.pyc
+__pycache__/
+
+# Datasets or model weights
+*.h5
+*.pt
+*.pkl
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.jpg
+*.png
+*.mp4
+
+# IDE and system files
+.DS_Store
+*.log
+.idea/
+.vscode/
