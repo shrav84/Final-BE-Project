@@ -1,25 +1,40 @@
 # Python virtual environments
 venv
-
 venv38/
 .env/
 *.pyc
 __pycache__/
 
 # Datasets or model weights
+*.caffemodel
 *.h5
 *.pt
 *.pkl
 *.ckpt
+*.tflite
+*.model
+*.onnx
+*.pb
+*.weights
 *.zip
 *.tar
 *.tar.gz
+
+# Image, video, and media files
 *.jpg
+*.jpeg
 *.png
 *.mp4
+*.avi
 
 # IDE and system files
 .DS_Store
 *.log
 .idea/
 .vscode/
+
+# Specific model directories (if they contain trained weights)
+age_models/
+incep_v3_mask_model/
+
+face_detector/
